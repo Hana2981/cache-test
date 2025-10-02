@@ -40,4 +40,4 @@ jobs:
 
       # 6️⃣ Prime cache step
       - name: prime-cache-82280f8
-        run: echo "Cache hit: ${{ steps.cache.o
+        run: echo "Cache hit: ${{ steps.cache.outputs.cache-hit }}"
