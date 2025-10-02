@@ -40,7 +40,7 @@ jobs:
 
       # 6️⃣ Prime cache step (guaranteed to run)
       - name: prime-cache-82280f8
-        run: echo "Cache hit: ${{ steps.cache.outputs.cache-hit }}"
+        run: echo Cache hit: ${{ steps.cache.outputs.cache-hit }}
 
 name: CI with Cache
 
